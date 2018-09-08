@@ -1,6 +1,6 @@
 {
   "name": "getsong",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "download via you-get then transcode into m4a",
   "main": "bin/getsong",
   "dependencies": {
