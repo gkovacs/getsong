@@ -1,0 +1,32 @@
+{
+  "name": "getsong",
+  "version": "1.0.0",
+  "description": "download via you-get then transcode into m4a",
+  "main": "bin/getsong",
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "livescript-async": "^1.5.2"
+  },
+  "bin": {
+    "lscbin": "./bin/getsong"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkovacs/getsong.git"
+  },
+  "keywords": [
+    "you-get",
+    "getsong"
+  ],
+  "author": "Geza Kovacs (http://github.com/gkovacs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkovacs/getsong/issues"
+  },
+  "homepage": "https://github.com/gkovacs/getsong"
+}
