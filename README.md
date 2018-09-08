@@ -1,6 +1,6 @@
 # getsong
 
-download via you-get then transcode into m4a
+Download via you-get then transcode into m4a
 
 ## Install
 
@@ -9,6 +9,9 @@ download via you-get then transcode into m4a
 ## Using
 
     getsong 'some search term or url'
+    getsong 'title' 'author'
+
+The title author format will set metadata correctly
 
 ## Author
 

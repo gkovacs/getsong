@@ -10,6 +10,10 @@ main = ->
   author = process.argv[3]
   if not title?
     console.log 'need to provide a search query or url'
+    console.log 'usage (specifying title author will set metadata correctly):'
+    console.log ''
+    console.log "getsong 'some search query'"
+    console.log "getsong 'title' 'author'"
     return
   if author?
     query = title + ' ' + author
