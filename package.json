@@ -1,6 +1,6 @@
 {
   "name": "getsong",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "download via you-get then transcode into m4a",
   "main": "bin/getsong",
   "dependencies": {
@@ -10,7 +10,7 @@
     "livescript-async": "^1.5.2"
   },
   "bin": {
-    "lscbin": "./bin/getsong"
+    "getsong": "./bin/getsong"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
