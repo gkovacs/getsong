@@ -8,17 +8,20 @@ require! {
 main = ->
   title = process.argv[2]
   author = process.argv[3]
+  query = process.argv[4]
   if not title?
     console.log 'need to provide a search query or url'
     console.log 'usage (specifying title author will set metadata correctly):'
     console.log ''
-    console.log "getsong 'some search query'"
+    console.log "getsong 'some search query or url'"
     console.log "getsong 'title' 'author'"
+    console.log "getsong 'title' 'author' 'some search query or url'"
     return
-  if author?
-    query = title + ' ' + author
-  else
-    query = title
+  if not query?
+    if author?
+      query = title + ' ' + author
+    else
+      query = title
   if fs.existsSync('getsongtmp')
     rm '-r', 'getsongtmp'
   mkdir 'getsongtmp'
